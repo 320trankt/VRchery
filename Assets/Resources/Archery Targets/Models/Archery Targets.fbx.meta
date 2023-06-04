@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: fd1a80c16dfdaf14e86359d94c79e927
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Black-10pts
+    100004: Black-10pts.001
+    100006: Black-10pts.002
+    100008: Black-10pts.003
+    100010: Black-10pts.004
+    100012: Black-10pts.005
+    100014: Blue-25pts
+    100016: Blue-25pts.001
+    100018: Blue-25pts.002
+    100020: Blue-25pts.003
+    100022: Blue-25pts.004
+    100024: Blue-25pts.005
+    100026: Center-100pts
+    100028: Center-100pts.001
+    100030: Center-100pts.002
+    100032: Center-100pts.003
+    100034: Center-100pts.004
+    100036: Center-100pts.005
+    100038: Dirt
+    100040: Grass
+    100042: Hay bands
+    100044: Hay bands.001
+    100046: Hay bands.002
+    100048: Hay Stack
+    100050: Hay Stack.001
+    100052: Hay Stack.002
+    100054: Helmet
+    100056: Helmet.001
+    100058: Lamp
+    100060: Post
+    100062: Post.001
+    100064: Red-50 pts
+    100066: Red-50 pts.001
+    100068: Red-50 pts.002
+    100070: Red-50 pts.003
+    100072: Red-50 pts.004
+    100074: Red-50 pts.005
+    100076: Rope
+    100078: Rope.001
+    100080: Rope.002
+    100082: Rope.003
+    100084: Rope.004
+    100086: Rope.005
+    100088: Rope.006
+    100090: SandBags
+    100092: SandBags.001
+    100094: SandBags.002
+    100096: SandBags.003
+    100098: Stand
+    100100: Stand.001
+    100102: Stand.002
+    100104: Text
+    100106: Text.001
+    100108: Text.002
+    100110: Text.003
+    100112: Text.004
+    100114: Text.005
+    100116: Text.006
+    100118: Text.007
+    100120: Text.008
+    100122: Text.009
+    100124: Text.010
+    100126: Text.011
+    100128: Text.012
+    100130: Text.013
+    100132: Text.014
+    100134: Text.015
+    100136: Text.016
+    100138: Text.017
+    100140: Text.018
+    100142: Text.019
+    100144: Text.020
+    100146: Text.021
+    100148: Text.022
+    100150: Text.023
+    100152: Text.024
+    100154: Text.025
+    100156: Text.026
+    100158: Text.027
+    100160: Text.028
+    100162: Text.029
+    100164: Text.030
+    100166: Text.031
+    100168: Text.032
+    100170: Text.033
+    100172: Text.034
+    100174: Text.035
+    100176: Text.036
+    100178: Text.037
+    100180: Text.038
+    100182: Text.039
+    100184: Text.040
+    100186: Text.041
+    100188: Text.042
+    100190: Text.043
+    100192: Text.044
+    100194: Text.045
+    100196: Text.046
+    100198: Text.047
+    100200: Text.048
+    100202: Text.049
+    100204: Text.050
+    100206: Text.051
+    100208: White-1pt
+    100210: White-1pt.001
+    100212: White-1pt.002
+    100214: White-1pt.003
+    100216: White-1pt.004
+    100218: White-1pt.005
+    100220: Wood Shield 2
+    100222: Wood Shield 2.001
+    100224: Wood target
+    100226: Wood target.001
+    100228: Wood-Shield 1
+    100230: Wood-Shield 1.001
+    400000: //RootNode
+    400002: Black-10pts
+    400004: Black-10pts.001
+    400006: Black-10pts.002
+    400008: Black-10pts.003
+    400010: Black-10pts.004
+    400012: Black-10pts.005
+    400014: Blue-25pts
+    400016: Blue-25pts.001
+    400018: Blue-25pts.002
+    400020: Blue-25pts.003
+    400022: Blue-25pts.004
+    400024: Blue-25pts.005
+    400026: Center-100pts
+    400028: Center-100pts.001
+    400030: Center-100pts.002
+    400032: Center-100pts.003
+    400034: Center-100pts.004
+    400036: Center-100pts.005
+    400038: Dirt
+    400040: Grass
+    400042: Hay bands
+    400044: Hay bands.001
+    400046: Hay bands.002
+    400048: Hay Stack
+    400050: Hay Stack.001
+    400052: Hay Stack.002
+    400054: Helmet
+    400056: Helmet.001
+    400058: Lamp
+    400060: Post
+    400062: Post.001
+    400064: Red-50 pts
+    400066: Red-50 pts.001
+    400068: Red-50 pts.002
+    400070: Red-50 pts.003
+    400072: Red-50 pts.004
+    400074: Red-50 pts.005
+    400076: Rope
+    400078: Rope.001
+    400080: Rope.002
+    400082: Rope.003
+    400084: Rope.004
+    400086: Rope.005
+    400088: Rope.006
+    400090: SandBags
+    400092: SandBags.001
+    400094: SandBags.002
+    400096: SandBags.003
+    400098: Stand
+    400100: Stand.001
+    400102: Stand.002
+    400104: Text
+    400106: Text.001
+    400108: Text.002
+    400110: Text.003
+    400112: Text.004
+    400114: Text.005
+    400116: Text.006
+    400118: Text.007
+    400120: Text.008
+    400122: Text.009
+    400124: Text.010
+    400126: Text.011
+    400128: Text.012
+    400130: Text.013
+    400132: Text.014
+    400134: Text.015
+    400136: Text.016
+    400138: Text.017
+    400140: Text.018
+    400142: Text.019
+    400144: Text.020
+    400146: Text.021
+    400148: Text.022
+    400150: Text.023
+    400152: Text.024
+    400154: Text.025
+    400156: Text.026
+    400158: Text.027
+    400160: Text.028
+    400162: Text.029
+    400164: Text.030
+    400166: Text.031
+    400168: Text.032
+    400170: Text.033
+    400172: Text.034
+    400174: Text.035
+    400176: Text.036
+    400178: Text.037
+    400180: Text.038
+    400182: Text.039
+    400184: Text.040
+    400186: Text.041
+    400188: Text.042
+    400190: Text.043
+    400192: Text.044
+    400194: Text.045
+    400196: Text.046
+    400198: Text.047
+    400200: Text.048
+    400202: Text.049
+    400204: Text.050
+    400206: Text.051
+    400208: White-1pt
+    400210: White-1pt.001
+    400212: White-1pt.002
+    400214: White-1pt.003
+    400216: White-1pt.004
+    400218: White-1pt.005
+    400220: Wood Shield 2
+    400222: Wood Shield 2.001
+    400224: Wood target
+    400226: Wood target.001
+    400228: Wood-Shield 1
+    400230: Wood-Shield 1.001
+    2100000: Material.018
+    2100002: Material.003
+    2100004: Material.019
+    2100006: Material.015
+    2100008: Material.014
+    2100010: Material.016
+    2100012: Material.017
+    2100014: Material.011
+    2100016: Material.005
+    2100018: Material.006
+    2100020: Material.021
+    2100022: Material.023
+    2100024: Material.022
+    2100026: Material.002
+    2100028: Material
+    2100030: Material.001
+    2100032: Material.009
+    2100034: Material.012
+    2100036: Material.013
+    2300000: Black-10pts
+    2300002: Black-10pts.001
+    2300004: Black-10pts.002
+    2300006: Black-10pts.003
+    2300008: Black-10pts.004
+    2300010: Black-10pts.005
+    2300012: Blue-25pts
+    2300014: Blue-25pts.001
+    2300016: Blue-25pts.002
+    2300018: Blue-25pts.003
+    2300020: Blue-25pts.004
+    2300022: Blue-25pts.005
+    2300024: Center-100pts
+    2300026: Center-100pts.001
+    2300028: Center-100pts.002
+    2300030: Center-100pts.003
+    2300032: Center-100pts.004
+    2300034: Center-100pts.005
+    2300036: Dirt
+    2300038: Grass
+    2300040: Hay bands
+    2300042: Hay bands.001
+    2300044: Hay bands.002
+    2300046: Hay Stack
+    2300048: Hay Stack.001
+    2300050: Hay Stack.002
+    2300052: Helmet
+    2300054: Helmet.001
+    2300056: Post
+    2300058: Post.001
+    2300060: Red-50 pts
+    2300062: Red-50 pts.001
+    2300064: Red-50 pts.002
+    2300066: Red-50 pts.003
+    2300068: Red-50 pts.004
+    2300070: Red-50 pts.005
+    2300072: Rope
+    2300074: Rope.001
+    2300076: Rope.002
+    2300078: Rope.003
+    2300080: Rope.004
+    2300082: Rope.005
+    2300084: Rope.006
+    2300086: SandBags
+    2300088: SandBags.001
+    2300090: SandBags.002
+    2300092: SandBags.003
+    2300094: Stand
+    2300096: Stand.001
+    2300098: Stand.002
+    2300100: Text
+    2300102: Text.001
+    2300104: Text.002
+    2300106: Text.003
+    2300108: Text.004
+    2300110: Text.005
+    2300112: Text.006
+    2300114: Text.007
+    2300116: Text.008
+    2300118: Text.009
+    2300120: Text.010
+    2300122: Text.011
+    2300124: Text.012
+    2300126: Text.013
+    2300128: Text.014
+    2300130: Text.015
+    2300132: Text.016
+    2300134: Text.017
+    2300136: Text.018
+    2300138: Text.019
+    2300140: Text.020
+    2300142: Text.021
+    2300144: Text.022
+    2300146: Text.023
+    2300148: Text.024
+    2300150: Text.025
+    2300152: Text.026
+    2300154: Text.027
+    2300156: Text.028
+    2300158: Text.029
+    2300160: Text.030
+    2300162: Text.031
+    2300164: Text.032
+    2300166: Text.033
+    2300168: Text.034
+    2300170: Text.035
+    2300172: Text.036
+    2300174: Text.037
+    2300176: Text.038
+    2300178: Text.039
+    2300180: Text.040
+    2300182: Text.041
+    2300184: Text.042
+    2300186: Text.043
+    2300188: Text.044
+    2300190: Text.045
+    2300192: Text.046
+    2300194: Text.047
+    2300196: Text.048
+    2300198: Text.049
+    2300200: Text.050
+    2300202: Text.051
+    2300204: White-1pt
+    2300206: White-1pt.001
+    2300208: White-1pt.002
+    2300210: White-1pt.003
+    2300212: White-1pt.004
+    2300214: White-1pt.005
+    2300216: Wood Shield 2
+    2300218: Wood Shield 2.001
+    2300220: Wood target
+    2300222: Wood target.001
+    2300224: Wood-Shield 1
+    2300226: Wood-Shield 1.001
+    3300000: Black-10pts
+    3300002: Black-10pts.001
+    3300004: Black-10pts.002
+    3300006: Black-10pts.003
+    3300008: Black-10pts.004
+    3300010: Black-10pts.005
+    3300012: Blue-25pts
+    3300014: Blue-25pts.001
+    3300016: Blue-25pts.002
+    3300018: Blue-25pts.003
+    3300020: Blue-25pts.004
+    3300022: Blue-25pts.005
+    3300024: Center-100pts
+    3300026: Center-100pts.001
+    3300028: Center-100pts.002
+    3300030: Center-100pts.003
+    3300032: Center-100pts.004
+    3300034: Center-100pts.005
+    3300036: Dirt
+    3300038: Grass
+    3300040: Hay bands
+    3300042: Hay bands.001
+    3300044: Hay bands.002
+    3300046: Hay Stack
+    3300048: Hay Stack.001
+    3300050: Hay Stack.002
+    3300052: Helmet
+    3300054: Helmet.001
+    3300056: Post
+    3300058: Post.001
+    3300060: Red-50 pts
+    3300062: Red-50 pts.001
+    3300064: Red-50 pts.002
+    3300066: Red-50 pts.003
+    3300068: Red-50 pts.004
+    3300070: Red-50 pts.005
+    3300072: Rope
+    3300074: Rope.001
+    3300076: Rope.002
+    3300078: Rope.003
+    3300080: Rope.004
+    3300082: Rope.005
+    3300084: Rope.006
+    3300086: SandBags
+    3300088: SandBags.001
+    3300090: SandBags.002
+    3300092: SandBags.003
+    3300094: Stand
+    3300096: Stand.001
+    3300098: Stand.002
+    3300100: Text
+    3300102: Text.001
+    3300104: Text.002
+    3300106: Text.003
+    3300108: Text.004
+    3300110: Text.005
+    3300112: Text.006
+    3300114: Text.007
+    3300116: Text.008
+    3300118: Text.009
+    3300120: Text.010
+    3300122: Text.011
+    3300124: Text.012
+    3300126: Text.013
+    3300128: Text.014
+    3300130: Text.015
+    3300132: Text.016
+    3300134: Text.017
+    3300136: Text.018
+    3300138: Text.019
+    3300140: Text.020
+    3300142: Text.021
+    3300144: Text.022
+    3300146: Text.023
+    3300148: Text.024
+    3300150: Text.025
+    3300152: Text.026
+    3300154: Text.027
+    3300156: Text.028
+    3300158: Text.029
+    3300160: Text.030
+    3300162: Text.031
+    3300164: Text.032
+    3300166: Text.033
+    3300168: Text.034
+    3300170: Text.035
+    3300172: Text.036
+    3300174: Text.037
+    3300176: Text.038
+    3300178: Text.039
+    3300180: Text.040
+    3300182: Text.041
+    3300184: Text.042
+    3300186: Text.043
+    3300188: Text.044
+    3300190: Text.045
+    3300192: Text.046
+    3300194: Text.047
+    3300196: Text.048
+    3300198: Text.049
+    3300200: Text.050
+    3300202: Text.051
+    3300204: White-1pt
+    3300206: White-1pt.001
+    3300208: White-1pt.002
+    3300210: White-1pt.003
+    3300212: White-1pt.004
+    3300214: White-1pt.005
+    3300216: Wood Shield 2
+    3300218: Wood Shield 2.001
+    3300220: Wood target
+    3300222: Wood target.001
+    3300224: Wood-Shield 1
+    3300226: Wood-Shield 1.001
+    4300000: Post.001
+    4300002: Text.051
+    4300004: Text.050
+    4300006: Text.049
+    4300008: Text.048
+    4300010: White-1pt.005
+    4300012: Black-10pts.005
+    4300014: Center-100pts.005
+    4300016: Red-50 pts.005
+    4300018: Blue-25pts.005
+    4300020: Text.047
+    4300022: Text.046
+    4300024: Text.045
+    4300026: Text.044
+    4300028: Text.043
+    4300030: Rope.006
+    4300032: Rope.005
+    4300034: Text.042
+    4300036: Text.041
+    4300038: Text.040
+    4300040: Text.039
+    4300042: Text.038
+    4300044: Blue-25pts.004
+    4300046: Red-50 pts.004
+    4300048: Center-100pts.004
+    4300050: Black-10pts.004
+    4300052: White-1pt.004
+    4300054: Rope.004
+    4300056: White-1pt.003
+    4300058: Black-10pts.003
+    4300060: Center-100pts.003
+    4300062: Red-50 pts.003
+    4300064: Blue-25pts.003
+    4300066: Text.037
+    4300068: Text.036
+    4300070: Text.035
+    4300072: Text.034
+    4300074: Text.033
+    4300076: Rope.003
+    4300078: SandBags.003
+    4300080: SandBags.002
+    4300082: Rope.002
+    4300084: Post
+    4300086: Grass
+    4300088: Dirt
+    4300090: Wood-Shield 1.001
+    4300092: Wood target.001
+    4300094: Helmet.001
+    4300096: SandBags.001
+    4300098: Rope.001
+    4300100: Wood Shield 2.001
+    4300102: Text.032
+    4300104: Text.031
+    4300106: Text.030
+    4300108: Text.029
+    4300110: Text.028
+    4300112: Text.027
+    4300114: Text.026
+    4300116: Text.025
+    4300118: Text.024
+    4300120: Stand.002
+    4300122: White-1pt.002
+    4300124: Black-10pts.002
+    4300126: Center-100pts.002
+    4300128: Red-50 pts.002
+    4300130: Blue-25pts.002
+    4300132: Hay Stack.002
+    4300134: Hay bands.002
+    4300136: Text.023
+    4300138: Text.022
+    4300140: Text.021
+    4300142: Text.020
+    4300144: Text.019
+    4300146: Text.018
+    4300148: Text.017
+    4300150: Text.016
+    4300152: Text.015
+    4300154: Text.014
+    4300156: Hay bands.001
+    4300158: Hay Stack.001
+    4300160: Blue-25pts.001
+    4300162: Red-50 pts.001
+    4300164: Center-100pts.001
+    4300166: Black-10pts.001
+    4300168: White-1pt.001
+    4300170: Stand.001
+    4300172: Stand
+    4300174: White-1pt
+    4300176: Black-10pts
+    4300178: Center-100pts
+    4300180: Red-50 pts
+    4300182: Blue-25pts
+    4300184: Hay Stack
+    4300186: Hay bands
+    4300188: Text.013
+    4300190: Text.012
+    4300192: Text.011
+    4300194: Text.010
+    4300196: Text.009
+    4300198: Text.008
+    4300200: Text.007
+    4300202: Text.006
+    4300204: Text.005
+    4300206: Text.004
+    4300208: Text.003
+    4300210: Text.002
+    4300212: Text.001
+    4300214: Text
+    4300216: Wood Shield 2
+    4300218: Rope
+    4300220: SandBags
+    4300222: Helmet
+    4300224: Wood target
+    4300226: Wood-Shield 1
+    10800000: Lamp
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
