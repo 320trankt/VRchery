@@ -5,7 +5,7 @@ using TMPro;
 
 public class TargetLogic : MonoBehaviour
 {
-    [SerializeField] public Transform game_controller;
+    //[SerializeField] public Transform game_controller;
     [SerializeField] public int point_value;
     [SerializeField] private TMP_Text ScoreBanner;
 
@@ -13,7 +13,8 @@ public class TargetLogic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        game = game_controller.GetComponent<GameController>();
+        game = GameObject.FindWithTag("GameController").GetComponent<GameController>();
+        //game = game_controller.GetComponent<GameController>();
     }
 
     // Update is called once per frame
@@ -25,6 +26,11 @@ public class TargetLogic : MonoBehaviour
     public void AddPoint()
     {
         game.score(point_value);
-        ScoreBanner.text = "Score:\n" + game.current_score;
+        //ScoreBanner.text = "Score:\n" + game.current_score;
+        if (point_value == 100){
+            ScoreBanner.text = "Score!\n" + point_value + " points\nBullseye!";
+        }else{
+            ScoreBanner.text = "Score!\n" + point_value + " points";
+        }
     }
 }
