@@ -3,15 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bow
+  - Arrow
+  - Target
+  - XRInteractor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Bow
   - Water
   - UI
-  - 
+  - Arrow
   - 
   - 
   - 

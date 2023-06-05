@@ -36,6 +36,9 @@ public class BowStringController : MonoBehaviour
 
     private void ResetBowString(SelectExitEventArgs arg0)
     {
+        OnBowReleased?.Invoke(strength);
+        strength = 0;
+
         interactor = null;
         midPointGrabObject.localPosition = new Vector3(-.2f,0,0);
         midPointVisualObject.localPosition = new Vector3(-.2f,0,0);
@@ -46,6 +49,7 @@ public class BowStringController : MonoBehaviour
     private void PrepareBowString(SelectEnterEventArgs arg0)
     {
         interactor = arg0.interactorObject.transform;
+        OnBowPulled?.Invoke();
     }
 
     private void Update()
@@ -56,7 +60,6 @@ public class BowStringController : MonoBehaviour
             Vector3 midPointLocalSpace = 
                 midPointParent.InverseTransformPoint(midPointGrabObject.position); // localPosition
 
-            Debug.Log(midPointGrabObject.position);
 
             //get the offset
             float midPointLocalZAbs = Mathf.Abs(midPointLocalSpace.x);
@@ -91,6 +94,7 @@ public class BowStringController : MonoBehaviour
         //We specify max pulling limit for the string. We don't allow the string to go any farther than "bowStringStretchLimit"
         if (midPointLocalSpace.x < 0 && midPointLocalZAbs >= bowStringStretchLimit)
         {
+            strength = 1;
             //Vector3 direction = midPointParent.TransformDirection(new Vector3(0, 0, midPointLocalSpace.z));
             midPointVisualObject.localPosition = new Vector3(-bowStringStretchLimit, 0, 0);
         }
@@ -100,6 +104,7 @@ public class BowStringController : MonoBehaviour
     {
         if (midPointLocalSpace.x >= 0)
         {
+            strength = 0;
             midPointVisualObject.localPosition = new Vector3(-.2f,0,0);
         }
     }
