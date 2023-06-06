@@ -16,6 +16,8 @@ public class ArrowController : MonoBehaviour
     private AudioClip string_pull;
     [SerializeField]
     private AudioClip shoot_arrow;
+
+    private GameController game;
     public void PrepareArrow()
     {
         midPointVisual.SetActive(true);
@@ -27,6 +29,7 @@ public class ArrowController : MonoBehaviour
         Debug.Log("released");
         midPointVisual.SetActive(false);
         GameObject arrow = Instantiate(arrowPrefab);
+        game.AddArrow(arrow);
         arrow.transform.position = arrowSpawnPoint.transform.position;
         arrow.transform.rotation = midPointVisual.transform.rotation;
         Rigidbody rb = arrow.GetComponent<Rigidbody>();
@@ -36,6 +39,7 @@ public class ArrowController : MonoBehaviour
     }
     void Start()
     {
+        game = GameObject.FindWithTag("GameController").GetComponent<GameController>();
     }
 
     void Awake()

@@ -8,6 +8,9 @@ TagManager:
   - Arrow
   - Target
   - XRInteractor
+  - Bow Tutorial
+  - TP Tutorial
+  - Button Tutorial
   layers:
   - Default
   - TransparentFX
