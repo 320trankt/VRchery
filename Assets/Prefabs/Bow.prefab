@@ -550,6 +550,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2694328709405019039}
+  - component: {fileID: 3995335592021326943}
   m_Layer: 3
   m_Name: top
   m_TagString: Bow
@@ -572,6 +573,19 @@ Transform:
   m_Father: {fileID: 2694328710253529649}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3995335592021326943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2694328709405019038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.037827954, y: 0.05, z: 0.05}
+  m_Center: {x: 0.014226817, y: 0, z: 0}
 --- !u!1 &2694328709699461501
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,6 +627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2694328709874663578}
+  - component: {fileID: 5950422203961756720}
   m_Layer: 3
   m_Name: bottom
   m_TagString: Bow
@@ -635,6 +650,19 @@ Transform:
   m_Father: {fileID: 2694328710253529649}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5950422203961756720
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2694328709874663577}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.038568616, y: 0.05, z: 0.05}
+  m_Center: {x: 0.015038118, y: 0, z: 0}
 --- !u!1 &2694328710253529648
 GameObject:
   m_ObjectHideFlags: 0
